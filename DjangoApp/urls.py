@@ -18,5 +18,5 @@ from django.urls import path
 from play.views import play
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/play', play, name='play'),
+    path('play/', play, name='play'),
 ]
